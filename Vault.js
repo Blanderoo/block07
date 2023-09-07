@@ -8,10 +8,7 @@
 7.
 */
 const greeting ="You have received this message because you have been chosen to open an important vault. Here is the secret combination:" 
-        let numCombo1 = 10;
-        let numCombo2 = 40;
-        let numCombo3 = 39;
-        const numCombo1 = 10 / 5;
-        const numCombo2 = 5 * 8;
-        const numCombo3 = 28 + 11;
-        alert (Secret Combo: 10- 40- 39);
+        let numCombo1 = 20 / 2; // 10
+        let numCombo2 = 5 * 8; // 40
+        let numCombo3 = 28 + 11; // 39
+        alert(`${greeting} ${numCombo1} - ${numCombo2} - ${numCombo3}`)
